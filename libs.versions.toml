@@ -1,7 +1,15 @@
 [versions]
 appcompat = "1.7.0"
+applovin = "12.6.0.0"
+applovinSdk = "12.6.0"
+bytedanceAdapter = "6.1.0.9.0"
 circleimageview = "3.1.0"
+coilCompose = "2.7.0"
+composeRatingbar = "1.3.12"
+composeShimmer = "1.3.0"
 firebaseBom = "33.1.2"
+flagkitAndroid = "1.0.2"
+fyberAdapter = "8.3.0.0"
 glide-compose = "4.14.0"
 constraintlayoutCompose = "1.0.1"
 glide = "4.16.0"
@@ -9,8 +17,12 @@ constraintlayout = "2.1.4"
 coreKtx = "1.13.1"
 eventbus = "3.3.1"
 fragmentKtx = "1.8.2"
+googleAdapter = "23.3.0.0"
+googleAdManagerAdapter = "23.3.0.0"
 gson = "2.11.0"
 hiltNavigationCompose = "1.2.0"
+inmobiAdapter = "10.7.5.0"
+ironsourceAdapter = "8.2.1.0.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
@@ -23,21 +35,43 @@ composeBom = "2024.06.00"
 #plugins ver
 agp = "8.3.2"
 kotlin = "2.0.10"
+kotlin-ksp = "2.0.10-1.0.24"
 google-service = "4.4.2"
 crashlytic = "3.0.2"
 gradle = "8.0.2"
 compose-plugin = "1.7.0-alpha02"
 hilt = "2.52"
+lottie = "6.5.0"
+lottieCompose = "6.5.0"
 material = "1.12.0"
+media = "1.7.0"
+media3Session = "1.4.0"
+media3Exoplayer = "1.4.0"
+mintegral = "16.8.11.0"
+mintegralAdapter = "16.8.21.0"
 navigationCompose = "2.7.7"
+oguryPresageAdapter = "5.8.0.0"
+pangle = "6.1.0.7.0"
+picasso = "2.71828"
+playServicesAds = "23.3.0"
 recyclerview = "1.3.2"
+reorderable = "0.9.6"
+retrofit = "2.11.0"
+room = "2.6.1"
 roundedimageview = "2.3.0"
 sdpAndroid = "1.1.1"
+sdpCompose = "1.1.0"
+shimmer = "0.5.0"
 sspAndroid = "1.1.1"
+toasty = "1.5.2"
+unityadsAdapter = "4.12.2.0"
+userMessagingPlatform = "3.0.0"
+vungleAdapter = "7.4.0.0"
 
 #for build-logic add-on plugin
 firebaseAppDistribution = "5.0.0"
 firebasePerformance = "1.4.2"
+
 
 [libraries]
 androidx-activity = { module = "androidx.activity:activity", version.ref = "activityCompose" }
@@ -53,21 +87,41 @@ androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-
 androidx-material-icons-core = { module = "androidx.compose.material:material-icons-core" }
 androidx-material-icons-extended = { module = "androidx.compose.material:material-icons-extended" }
 androidx-material3-windowSize = { module = "androidx.compose.material3:material3-window-size-class" }
+androidx-media = { module = "androidx.media:media", version.ref = "media" }
+androidx-media3-session = { module = "androidx.media3:media3-session", version.ref = "media3Session" }
+androidx-media3-exoplayer = { module = "androidx.media3:media3-exoplayer", version.ref = "media3Exoplayer" }
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
 androidx-recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
+applovin = { module = "com.google.ads.mediation:applovin", version.ref = "applovin" }
+applovin-sdk = { module = "com.applovin:applovin-sdk", version.ref = "applovinSdk" }
+bytedance-adapter = { module = "com.applovin.mediation:bytedance-adapter", version.ref = "bytedanceAdapter" }
 circleimageview = { module = "de.hdodenhof:circleimageview", version.ref = "circleimageview" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
+compose-ratingbar = { module = "com.github.a914-gowtham:compose-ratingbar", version.ref = "composeRatingbar" }
+compose-shimmer = { module = "com.valentinilk.shimmer:compose-shimmer", version.ref = "composeShimmer" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+converter-scalars = { module = "com.squareup.retrofit2:converter-scalars", version.ref = "retrofit" }
 firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
 firebase-crashlytics = { group = "com.google.firebase", name = "firebase-crashlytics" }
 firebase-crashlytics-ndk = { group = "com.google.firebase", name = "firebase-crashlytics-ndk" }
 firebase-config = { group = "com.google.firebase", name = "firebase-config" }
 firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics" }
+flagkit-android = { module = "com.github.murgupluoglu:flagkit-android", version.ref = "flagkitAndroid" }
+fyber-adapter = { module = "com.applovin.mediation:fyber-adapter", version.ref = "fyberAdapter" }
 glide-compose = { module = "com.github.bumptech.glide:compose", version.ref = "glide-compose" }
 glide-compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide" }
 eventbus = { module = "org.greenrobot:eventbus", version.ref = "eventbus" }
 glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+google-ad-manager-adapter = { module = "com.applovin.mediation:google-ad-manager-adapter", version.ref = "googleAdManagerAdapter" }
+google-adapter = { module = "com.applovin.mediation:google-adapter", version.ref = "googleAdapter" }
 gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt" }
+inmobi-adapter = { module = "com.applovin.mediation:inmobi-adapter", version.ref = "inmobiAdapter" }
+ironsource-adapter = { module = "com.applovin.mediation:ironsource-adapter", version.ref = "ironsourceAdapter" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -83,10 +137,27 @@ androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
 gradleAndroid = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
 koltinGradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+lottie-compose = { module = "com.airbnb.android:lottie-compose", version.ref = "lottieCompose" }
 material = { module = "com.google.android.material:material", version.ref = "material" }
+mintegral = { module = "com.google.ads.mediation:mintegral", version.ref = "mintegral" }
+mintegral-adapter = { module = "com.applovin.mediation:mintegral-adapter", version.ref = "mintegralAdapter" }
+ogury-presage-adapter = { module = "com.applovin.mediation:ogury-presage-adapter", version.ref = "oguryPresageAdapter" }
+pangle = { module = "com.google.ads.mediation:pangle", version.ref = "pangle" }
+picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
+play-services-ads = { module = "com.google.android.gms:play-services-ads", version.ref = "playServicesAds" }
+reorderable = { module = "org.burnoutcrew.composereorderable:reorderable", version.ref = "reorderable" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 roundedimageview = { module = "com.makeramen:roundedimageview", version.ref = "roundedimageview" }
 sdp-android = { module = "com.intuit.sdp:sdp-android", version.ref = "sdpAndroid" }
+sdp-compose = { module = "com.github.Kaaveh:sdp-compose", version.ref = "sdpCompose" }
+shimmer = { module = "com.facebook.shimmer:shimmer", version.ref = "shimmer" }
 ssp-android = { module = "com.intuit.ssp:ssp-android", version.ref = "sspAndroid" }
+toasty = { module = "com.github.GrenderG:Toasty", version.ref = "toasty" }
+unityads-adapter = { module = "com.applovin.mediation:unityads-adapter", version.ref = "unityadsAdapter" }
+user-messaging-platform = { module = "com.google.android.ump:user-messaging-platform", version.ref = "userMessagingPlatform" }
+vungle-adapter = { module = "com.applovin.mediation:vungle-adapter", version.ref = "vungleAdapter" }
+
 
 #for build-logic add-on plugin
 plugin-android = { module = "com.android.tools.build:gradle", version.ref = "agp" }
@@ -96,12 +167,12 @@ plugin-firebase-performance = { module = "com.google.firebase:perf-plugin", vers
 
 
 
-
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 android-library = { id = "com.android.library", version.ref = "agp" }
 jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+kotlin-ksp = { id = "com.google.devtools.ksp", version.ref = "kotlin-ksp" }
 jetbrainsCompose = { id = "org.jetbrains.compose", version.ref = "compose-plugin" }
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
@@ -110,6 +181,8 @@ kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref =
 google-service = { id = "com.google.gms.google-services", version.ref = "google-service" }
 google-crashlytic = { id = "com.google.firebase.crashlytics", version.ref = "crashlytic" }
 hoangdv-application = { id = "com.hoangdv.application" }
+hoangdv-core = { id = "com.hoangdv.core" }
+hoangdv-library = { id = "com.hoangdv.library" }
 hoangdv-jetpack-compose = { id = "com.hoangdv.jetpack.compose" }
 hoangdv-firebase-core = { id = "com.hoangdv.firebase" }
 hoangdv-firebase-crashlytic = { id = "com.hoangdv.firebase.crashlytic" }
