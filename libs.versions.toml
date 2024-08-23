@@ -29,7 +29,7 @@ espressoCore = "3.6.1"
 lifecycleRuntimeCompose = "2.8.4"
 lifecycleRuntimeKtx = "2.8.4"
 activityCompose = "1.9.1"
-composeBom = "2024.06.00"
+composeBom = "2024.08.00"
 
 
 #plugins ver
