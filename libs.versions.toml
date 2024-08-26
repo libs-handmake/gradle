@@ -33,12 +33,12 @@ composeBom = "2024.08.00"
 
 
 #plugins ver
-agp = "8.5.2"
+agp = "8.3.2"
 kotlin = "2.0.10"
 kotlin-ksp = "2.0.10-1.0.24"
 google-service = "4.4.2"
 crashlytic = "3.0.2"
-gradle = "8.0.2"
+gradle = "8.5.2"
 compose-plugin = "1.7.0-alpha02"
 hilt = "2.52"
 lottie = "6.5.0"
