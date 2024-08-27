@@ -9,7 +9,7 @@ composeRatingbar = "1.3.12"
 composeShimmer = "1.3.0"
 firebaseBom = "33.2.0"
 flagkitAndroid = "1.0.2"
-fyberAdapter = "8.3.0.0"
+fyberAdapter = "8.3.1.0"
 glide-compose = "4.14.0"
 constraintlayoutCompose = "1.0.1"
 glide = "4.16.0"
@@ -18,7 +18,6 @@ coreKtx = "1.13.1"
 eventbus = "3.3.1"
 fragmentKtx = "1.8.2"
 googleAdapter = "23.3.0.0"
-googleAdManagerAdapter = "23.3.0.0"
 gson = "2.11.0"
 hiltNavigationCompose = "1.2.0"
 inmobiAdapter = "10.7.5.0"
@@ -30,16 +29,6 @@ lifecycleRuntimeCompose = "2.8.4"
 lifecycleRuntimeKtx = "2.8.4"
 activityCompose = "1.9.1"
 composeBom = "2024.08.00"
-
-
-#plugins ver
-agp = "8.3.2"
-kotlin = "2.0.10"
-kotlin-ksp = "2.0.10-1.0.24"
-google-service = "4.4.2"
-crashlytic = "3.0.2"
-gradle = "8.5.2"
-compose-plugin = "1.7.0-alpha02"
 hilt = "2.52"
 lottie = "6.5.0"
 lottieCompose = "6.5.0"
@@ -48,7 +37,7 @@ media = "1.7.0"
 media3Session = "1.4.0"
 media3Exoplayer = "1.4.0"
 mintegral = "16.8.31.0"
-mintegralAdapter = "16.8.21.0"
+mintegralAdapter = "16.8.31.0"
 navigationCompose = "2.7.7"
 oguryPresageAdapter = "5.8.0.0"
 pangle = "6.1.0.9.0"
@@ -64,9 +53,19 @@ sdpCompose = "1.1.0"
 shimmer = "0.5.0"
 sspAndroid = "1.1.1"
 toasty = "1.5.2"
-unityadsAdapter = "4.12.2.0"
+unityadsAdapter = "4.12.1.0"
 userMessagingPlatform = "3.0.0"
 vungleAdapter = "7.4.0.0"
+
+
+#plugins ver
+agp = "8.5.2"
+kotlin = "2.0.10"
+kotlin-ksp = "2.0.10-1.0.24"
+google-service = "4.4.2"
+crashlytic = "3.0.2"
+gradle = "8.5.2"
+compose-plugin = "1.7.0-alpha02"
 compose-compiler = "2.0.10"
 
 #for build-logic add-on plugin
@@ -96,9 +95,9 @@ androidx-recyclerview = { module = "androidx.recyclerview:recyclerview", version
 androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
 androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
 androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
-applovin = { module = "com.google.ads.mediation:applovin", version.ref = "applovin" }
+google-adapter-applovin = { module = "com.google.ads.mediation:applovin", version.ref = "applovin" }
 applovin-sdk = { module = "com.applovin:applovin-sdk", version.ref = "applovinSdk" }
-bytedance-adapter = { module = "com.applovin.mediation:bytedance-adapter", version.ref = "bytedanceAdapter" }
+applovin-adapter-bytedance = { module = "com.applovin.mediation:bytedance-adapter", version.ref = "bytedanceAdapter" }
 circleimageview = { module = "de.hdodenhof:circleimageview", version.ref = "circleimageview" }
 coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
 compose-ratingbar = { module = "com.github.a914-gowtham:compose-ratingbar", version.ref = "composeRatingbar" }
@@ -111,18 +110,18 @@ firebase-crashlytics-ndk = { group = "com.google.firebase", name = "firebase-cra
 firebase-config = { group = "com.google.firebase", name = "firebase-config" }
 firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics" }
 flagkit-android = { module = "com.github.murgupluoglu:flagkit-android", version.ref = "flagkitAndroid" }
-fyber-adapter = { module = "com.applovin.mediation:fyber-adapter", version.ref = "fyberAdapter" }
+applovin-adapter-fyber = { module = "com.applovin.mediation:fyber-adapter", version.ref = "fyberAdapter" }
 glide-compose = { module = "com.github.bumptech.glide:compose", version.ref = "glide-compose" }
 glide-compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide" }
 eventbus = { module = "org.greenrobot:eventbus", version.ref = "eventbus" }
 glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
-google-ad-manager-adapter = { module = "com.applovin.mediation:google-ad-manager-adapter", version.ref = "googleAdManagerAdapter" }
-google-adapter = { module = "com.applovin.mediation:google-adapter", version.ref = "googleAdapter" }
+applovin-adapter-googleAdManager = { module = "com.applovin.mediation:google-ad-manager-adapter", version.ref = "googleAdapter" }
+applovin-adapter-google = { module = "com.applovin.mediation:google-adapter", version.ref = "googleAdapter" }
 gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt" }
-inmobi-adapter = { module = "com.applovin.mediation:inmobi-adapter", version.ref = "inmobiAdapter" }
-ironsource-adapter = { module = "com.applovin.mediation:ironsource-adapter", version.ref = "ironsourceAdapter" }
+applovin-adapter-inmobi = { module = "com.applovin.mediation:inmobi-adapter", version.ref = "inmobiAdapter" }
+applovin-adapter-ironsource = { module = "com.applovin.mediation:ironsource-adapter", version.ref = "ironsourceAdapter" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -141,10 +140,10 @@ koltinGradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", ver
 lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
 lottie-compose = { module = "com.airbnb.android:lottie-compose", version.ref = "lottieCompose" }
 material = { module = "com.google.android.material:material", version.ref = "material" }
-mintegral = { module = "com.google.ads.mediation:mintegral", version.ref = "mintegral" }
-mintegral-adapter = { module = "com.applovin.mediation:mintegral-adapter", version.ref = "mintegralAdapter" }
-ogury-presage-adapter = { module = "com.applovin.mediation:ogury-presage-adapter", version.ref = "oguryPresageAdapter" }
-pangle = { module = "com.google.ads.mediation:pangle", version.ref = "pangle" }
+google-adapter-mintegral = { module = "com.google.ads.mediation:mintegral", version.ref = "mintegral" }
+applovin-adapter-mintegral = { module = "com.applovin.mediation:mintegral-adapter", version.ref = "mintegralAdapter" }
+applovin-adapter-ogury-presage = { module = "com.applovin.mediation:ogury-presage-adapter", version.ref = "oguryPresageAdapter" }
+google-adapter-pangle = { module = "com.google.ads.mediation:pangle", version.ref = "pangle" }
 picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
 play-services-ads = { module = "com.google.android.gms:play-services-ads", version.ref = "playServicesAds" }
 reorderable = { module = "org.burnoutcrew.composereorderable:reorderable", version.ref = "reorderable" }
@@ -155,9 +154,9 @@ sdp-compose = { module = "com.github.Kaaveh:sdp-compose", version.ref = "sdpComp
 shimmer = { module = "com.facebook.shimmer:shimmer", version.ref = "shimmer" }
 ssp-android = { module = "com.intuit.ssp:ssp-android", version.ref = "sspAndroid" }
 toasty = { module = "com.github.GrenderG:Toasty", version.ref = "toasty" }
-unityads-adapter = { module = "com.applovin.mediation:unityads-adapter", version.ref = "unityadsAdapter" }
+applovin-adapter-unityads = { module = "com.applovin.mediation:unityads-adapter", version.ref = "unityadsAdapter" }
 user-messaging-platform = { module = "com.google.android.ump:user-messaging-platform", version.ref = "userMessagingPlatform" }
-vungle-adapter = { module = "com.applovin.mediation:vungle-adapter", version.ref = "vungleAdapter" }
+applovin-adapter-vungle = { module = "com.applovin.mediation:vungle-adapter", version.ref = "vungleAdapter" }
 
 
 #for build-logic add-on plugin
