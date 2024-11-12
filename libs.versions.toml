@@ -22,6 +22,7 @@ fragmentKtx = "1.8.4"
 googleAdapter = "23.3.0.1"
 gson = "2.11.0"
 hiltNavigationCompose = "1.2.0"
+google-adapter-inmobi = "10.7.8.1"
 inmobiAdapter = "10.7.7.2"
 googleIronSourceAdapter = "8.3.0.0"
 ironsourceAdapter = "8.2.1.0.0"
@@ -132,6 +133,7 @@ hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt"
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt" }
 applovin-adapter-inmobi = { module = "com.applovin.mediation:inmobi-adapter", version.ref = "inmobiAdapter" }
 applovin-adapter-ironsource = { module = "com.applovin.mediation:ironsource-adapter", version.ref = "ironsourceAdapter" }
+google-adapter-inmobi = { module = "com.google.ads.mediation:inmobi", version.ref = "google-adapter-inmobi" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
